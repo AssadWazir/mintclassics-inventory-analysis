@@ -1,0 +1,111 @@
+warehouseCode,productCode,productName,quantityInStock,total_sold,sales_to_stock_ratio
+b,S18_3233,"1985 Toyota Supra",7733,NULL,NULL
+b,S18_1984,"1995 Honda Civic",9772,917,0.09
+b,S24_3432,"2002 Chevy Corvette",9446,894,0.09
+a,S12_2823,"2002 Suzuki XREO",9997,1028,0.10
+b,S12_3380,"1968 Dodge Charger",9123,925,0.10
+b,S18_1589,"1965 Aston Martin DB5",9042,914,0.10
+c,S18_2325,"1932 Model A Ford J-Coupe",9354,957,0.10
+b,S18_2870,"1999 Indy 500 Monte Carlo SS",8164,855,0.10
+b,S18_3482,"1976 Ford Gran Torino",9127,915,0.10
+a,S32_2206,"1982 Ducati 996 R",9241,906,0.10
+a,S700_2466,"America West Airlines B757-200",9653,984,0.10
+c,S18_1367,"1936 Mercedes-Benz 500K Special Roadster",8635,960,0.11
+b,S18_1889,"1948 Porsche 356-A Roadster",8826,972,0.11
+b,S18_3685,"1948 Porsche Type 356 Roadster",8990,948,0.11
+b,S24_1628,"1966 Shelby Cobra 427 S/C",8197,915,0.11
+c,S24_3151,"1912 Ford Model T Delivery Wagon",9173,991,0.11
+d,S32_3207,"1950's Chicago Surface Lines Streetcar",8601,934,0.11
+a,S18_3782,"1957 Vespa GS150",7689,959,0.12
+c,S18_4522,"1904 Buick Runabout",8290,990,0.12
+b,S24_2972,"1982 Lamborghini Diablo",7723,912,0.12
+b,S24_3371,"1971 Alpine Renault 1600s",7995,969,0.12
+b,S24_4620,"1961 Chevrolet Impala",7869,941,0.12
+a,S700_4002,"American Airlines: MD-11S",8820,1085,0.12
+a,S10_1678,"1969 Harley Davidson Ultimate Chopper",7933,1057,0.13
+b,S10_1949,"1952 Alpine Renault 1300",7305,961,0.13
+c,S18_1342,"1937 Lincoln Berline",8693,1111,0.13
+d,S18_2319,"1964 Mercedes Tour Bus",8258,1053,0.13
+c,S18_3320,"1917 Maxwell Touring Car",7913,992,0.13
+c,S18_4409,"1932 Alfa Romeo 8C2300 Spider Sport",6553,866,0.13
+c,S24_1937,"1939 Chevrolet Deluxe Coupe",7332,937,0.13
+b,S24_4048,"1992 Porsche Cayenne Turbo Silver",6582,867,0.13
+b,S10_4962,"1962 LanciaA Delta 16V",6791,932,0.14
+b,S12_3148,"1969 Corvair Monza",6906,963,0.14
+b,S12_4675,"1969 Dodge Charger",7323,992,0.14
+d,S18_3259,"Collectable Wooden Train",6450,918,0.14
+a,S24_2360,"1982 Ducati 900 Monster",6840,947,0.14
+c,S24_3816,"1940 Ford Delivery Sedan",6621,923,0.14
+d,S700_2610,"The USS Constitution Ship",7083,1020,0.14
+b,S700_2824,"1982 Camaro Z28",6934,997,0.14
+a,S700_2834,"ATA: B757-300",7106,973,0.14
+a,S10_2016,"1996 Moto Guzzi 1100i",6625,999,0.15
+c,S18_3136,"18th Century Vintage Horse Carriage",5992,907,0.15
+c,S18_4668,"1939 Cadillac Limousine",6645,995,0.15
+a,S24_1578,"1997 BMW R 1100 S",7003,1033,0.15
+a,S24_3949,"Corsair F4U ( Bird Cage)",6812,1051,0.15
+c,S50_1341,"1930 Buick Marquette Phaeton",7062,1074,0.15
+a,S700_1691,"American Airlines: B767-300",5841,894,0.15
+b,S12_3990,"1970 Plymouth Hemi Cuda",5663,900,0.16
+a,S24_2841,"1900s Vintage Bi-Plane",5942,940,0.16
+b,S24_3856,"1956 Porsche 356A Coupe",6600,1052,0.16
+d,S12_4473,"1957 Chevy Pickup",6125,1056,0.17
+c,S18_2957,"1934 Ford V8 Coupe",5649,985,0.17
+b,S18_4027,"1970 Triumph Spitfire",5545,945,0.17
+a,S10_4698,"2003 Harley-Davidson Eagle Drag Bike",5582,985,0.18
+d,S32_1268,"1980’s GM Manhattan Express",5099,911,0.18
+d,S700_3962,"The Queen Mary",5088,896,0.18
+b,S24_3191,"1969 Chevrolet Camaro Z28",4695,870,0.19
+a,S18_1662,"1980s Black Hawk Helicopter",5330,1040,0.20
+a,S72_1253,"Boeing X-32A JSF",4857,960,0.20
+b,S18_2238,"1998 Chrysler Plymouth Prowler",4724,986,0.21
+c,S24_4258,"1936 Chrysler Airflow",4710,983,0.21
+a,S18_2625,"1936 Harley Davidson El Knucklehead",4357,945,0.22
+b,S18_3232,"1992 Ferrari 360 Spider red",8347,1808,0.22
+d,S18_3029,"1999 Yamaha Speed Boat",4259,966,0.23
+c,S18_3140,"1903 Ford Model A",3913,883,0.23
+b,S18_1129,"1993 Mazda RX-7",3975,947,0.24
+b,S18_4933,"1957 Ford Thunderbird",3209,767,0.24
+b,S24_1444,"1970 Dodge Coronet",4074,976,0.24
+c,S18_2949,"1913 Ford Model T Speedster",4189,1038,0.25
+d,S700_2047,"HMS Bounty",3501,897,0.26
+a,S24_1785,"1928 British Royal Navy Airplane",3627,972,0.27
+a,S32_4485,"1974 Ducati 350 Mk3 Desmo",3341,898,0.27
+b,S12_1108,"2001 Ferrari Enzo",3619,1019,0.28
+c,S24_3420,"1937 Horch 930V Limousine",2902,884,0.30
+b,S10_4757,"1972 Alfa Romeo GTA",3252,1030,0.32
+d,S32_2509,"1954 Greyhound Scenicruiser",2874,955,0.33
+c,S18_1749,"1917 Grand Touring Sedan",2724,918,0.34
+d,S18_4600,"1940s Ford truck",3128,1061,0.34
+c,S24_2022,"1938 Cadillac V-16 Presidential Limousine",2847,955,0.34
+a,S24_4278,"1900s Vintage Tri-Plane",2756,1009,0.37
+d,S18_1097,"1940 Ford Pickup Truck",2613,999,0.38
+b,S24_2840,"1958 Chevy Corvette Limited Edition",2542,983,0.39
+b,S24_2766,"1949 Jaguar XK 120",2350,949,0.40
+c,S24_3969,"1936 Mercedes Benz 500k Roadster",2081,824,0.40
+d,S24_2300,"1962 Volkswagen Microbus",2327,1029,0.44
+c,S18_3856,"1941 Chevrolet Special Deluxe Cabriolet",2378,1076,0.45
+d,S18_2432,"1926 Ford Fire Engine",2018,998,0.49
+d,S700_1138,"The Schooner Bluenose",1897,934,0.49
+d,S700_3505,"The Titanic",1956,952,0.49
+b,S18_3278,"1969 Dodge Super Bee",1917,974,0.51
+d,S24_2011,"18th century schooner",1898,1011,0.53
+d,S50_1514,"1962 City of Detroit Streetcar",1645,966,0.59
+b,S24_2887,"1952 Citroen-15CV",1452,873,0.60
+d,S12_1666,"1958 Setra Bus",1579,972,0.62
+b,S24_1046,"1970 Chevy Chevelle SS 454",1005,803,0.80
+b,S18_4721,"1957 Corvette Convertible",1249,1013,0.81
+b,S12_3891,"1969 Ford Falcon",1049,965,0.92
+a,S18_2581,"P-51-D Mustang",992,917,0.92
+d,S50_1392,"Diamond T620 Semi-Skirted Tanker",1016,979,0.96
+d,S32_3522,"1996 Peterbilt 379 Stake Bed with Outrigger",814,988,1.21
+d,S700_1938,"The Mayflower",737,898,1.22
+c,S18_2248,"1911 Ford Town Car",540,832,1.54
+c,S18_2795,"1928 Mercedes-Benz SSK",548,880,1.61
+a,S50_4713,"2002 Yamaha YZR M1",600,992,1.65
+a,S700_3167,"F/A 18 Hornet 1/72",551,1047,1.90
+d,S72_3212,"Pont Yacht",414,958,2.31
+a,S32_1374,"1997 BMW F650 ST",178,1014,5.70
+c,S32_4289,"1928 Ford Phaeton Deluxe",136,972,7.15
+b,S12_1099,"1968 Ford Mustang",68,933,13.72
+a,S24_2000,"1960 BSA Gold Star DBD34",15,1015,67.67
