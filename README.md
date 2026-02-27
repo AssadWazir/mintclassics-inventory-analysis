@@ -1,5 +1,7 @@
 # Mint Classics Inventory Analysis and Recommendations
 
+> **Note:** This project is part of my learning journey on Coursera: [Showcase: Analyze Data in a Model Car Database with MySQL Workbench](https://www.coursera.org/projects/showcase-analyze-data-model-car-database-mysql-workbench).
+
 ## Business Problem
 Mint Classics Company, a retailer of classic model cars and other vehicles, is looking to optimize its inventory storage. The company's goal is to reduce overall inventory and explore the possibility of closing one of its storage facilities while still maintaining its commitment to a 24-hour shipping turnaround time. The objective of this project is to analyze the inventory data, identify slow-moving and dead stock, and provide data-driven recommendations on warehouse consolidation and inventory reduction.
 
@@ -64,6 +66,10 @@ JOIN warehouses w
     ON p.warehouseCode = w.warehouseCode
 GROUP BY p.warehouseCode, w.warehouseName;
 ```
+*   **Result Data:** [warecount.csv](warecount.csv)
+*   **Output Snapshot:**
+    ![Product Counts per Warehouse](screenshots/getwarehousecount.PNG)
+
 
 ### 2. Identify Total Units in Stock per Warehouse
 This query sums the total physical items remaining in each warehouse to identify the facility storing the least amount of inventory.
@@ -75,6 +81,10 @@ FROM products
 GROUP BY warehouseCode
 ORDER BY total_units ASC;
 ```
+*   **Result Data:** [stcokcount.csv](stcokcount.csv)
+*   **Output Snapshot:**
+    ![Total Units in Stock](screenshots/totalstock.PNG)
+
 
 ### 3. Calculate Sales-to-Stock Ratio
 This query compares the number of units physically in stock with the total number of units sold to determine how quickly items are moving off the shelves.
@@ -92,6 +102,10 @@ LEFT JOIN orderdetails od
 GROUP BY p.productCode, p.warehouseCode
 ORDER BY sales_to_stock_ratio ASC;
 ```
+*   **Result Data:** [stockratio.csv](stockratio.csv)
+*   **Output Snapshot:**
+    ![Sales-to-Stock Ratio](screenshots/stockratio.PNG)
+
 
 ### 4. Isolate Slow-Moving Products
 Building on the previous query, this statement utilizes `HAVING` to filter and expose only the products with drastically low demand compared to stock availability (ratios below 0.3).
@@ -110,6 +124,10 @@ GROUP BY warehouseCode, productCode
 HAVING sales_to_stock_ratio < 0.3
 ORDER BY sales_to_stock_ratio ASC;
 ```
+*   **Result Data:** [slowmovingproject.csv](slowmovingproject.csv)
+*   **Output Snapshot:**
+    ![Slow-Moving Products](screenshots/slowmovingproject.PNG)
+
 
 ### 5. Identify Dead Stock (Zero Sales)
 This query performs a `LEFT JOIN` and filters for null matches indicating products that exist in the system but have zero recorded orders.
@@ -125,3 +143,6 @@ LEFT JOIN orderdetails od
 WHERE od.productCode IS NULL
 ORDER BY warehouseCode;
 ```
+*   **Result Data:** [deadproduct.csv](deadproduct.csv)
+*   **Output Snapshot:**
+    ![Dead Stock](screenshots/deadproduct.PNG)
